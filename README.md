@@ -20,7 +20,7 @@ Setup
     2. Open Netbeans IDE and click open project from file menu.
     3. Copy the sql file in the repository and run it as query or import database
     4. Now go to netbeans IDE and open connector class from Main package.
-    5. Replace the database host, username and password with your database credentials.
+    5. Configure the `HOSPITAL_DB_PASSWORD` environment variable with your MySQL password. You can optionally set `HOSPITAL_DB_USER`; it defaults to `root`.
     6. Now you need to download some libraries: 
         Visit: http://www.java2s.com/Code/Jar/j/Downloadjcalendar14jar.htm
         to download java calendar library.
@@ -72,4 +72,3 @@ Hitesh Sharma
 
 - [LinkedIn](https://www.linkedin.com/in/hiteshsharma01/)
 - [GitHub](https://github.com/HITESHSHARMA1175)
-
